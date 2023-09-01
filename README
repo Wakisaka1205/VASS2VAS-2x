@@ -1,0 +1,10 @@
+Formalization of converting VASS to VAS.
+
+Developed on Coq 8.17.1 and Mathematical Components 1.17.
+
+contents:
+
+* monad.v -- To use the function that is a kind of foldl for monad. This code is a citation from https://bitbucket.org/mituharu/karpmiller/src/master/.
+* vecop.v	-- A vector operation.
+* trans.v	-- Transition on VASS and VAS.
+* VASStoVAS.v -- Convert VASS to VAS.

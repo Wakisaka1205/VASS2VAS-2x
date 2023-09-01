@@ -1,0 +1,507 @@
+DIGEST 1e27e21e8f3fb7a6aae0cfd2ffeec17b
+FVASSToVAS.monad
+R93:105 mathcomp.ssreflect.all_ssreflect <> <> lib
+mod 199:203 <> Monad
+sec 215:225 Monad Definitions
+rec 239:241 Monad law
+proj 254:260 Monad carrier
+proj 280:282 Monad ret
+proj 314:317 Monad bind
+R268:271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 293:293 <> A:3
+R297:300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R296:296 VASSToVAS.monad <> A:3 var
+R301:307 VASSToVAS.monad <> carrier:2 meth
+R309:309 VASSToVAS.monad <> A:3 var
+binder 328:328 <> A:5
+binder 330:330 <> B:6
+R333:333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R348:352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R335:338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R334:334 VASSToVAS.monad <> A:5 var
+R339:345 VASSToVAS.monad <> carrier:2 meth
+R347:347 VASSToVAS.monad <> B:6 var
+R362:365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R353:359 VASSToVAS.monad <> carrier:2 meth
+R361:361 VASSToVAS.monad <> A:5 var
+R366:372 VASSToVAS.monad <> carrier:2 meth
+R374:374 VASSToVAS.monad <> B:6 var
+binder 390:390 <> A:8
+binder 392:392 <> B:9
+binder 394:394 <> a:10
+R402:405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R401:401 VASSToVAS.monad <> A:8 var
+R406:412 VASSToVAS.monad <> carrier:2 meth
+R414:414 VASSToVAS.monad <> B:9 var
+binder 397:397 <> f:11
+R432:434 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R418:421 VASSToVAS.monad <> bind:7 meth
+R426:428 VASSToVAS.monad <> ret:4 meth
+R430:430 VASSToVAS.monad <> a:10 var
+R423:423 VASSToVAS.monad <> f:11 var
+R435:435 VASSToVAS.monad <> f:11 var
+R437:437 VASSToVAS.monad <> a:10 var
+binder 453:453 <> A:12
+binder 455:456 <> ma:13
+R475:477 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R459:462 VASSToVAS.monad <> bind:7 meth
+R473:474 VASSToVAS.monad <> ma:13 var
+R466:468 VASSToVAS.monad <> ret:4 meth
+R470:470 VASSToVAS.monad <> A:12 var
+R478:479 VASSToVAS.monad <> ma:13 var
+binder 495:495 <> A:14
+binder 497:497 <> B:15
+binder 499:499 <> C:16
+binder 501:502 <> ma:17
+R510:513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R509:509 VASSToVAS.monad <> A:14 var
+R514:520 VASSToVAS.monad <> carrier:2 meth
+R522:522 VASSToVAS.monad <> B:15 var
+binder 505:505 <> f:18
+R531:534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R530:530 VASSToVAS.monad <> B:15 var
+R535:541 VASSToVAS.monad <> carrier:2 meth
+R543:543 VASSToVAS.monad <> C:16 var
+binder 526:526 <> g:19
+R573:575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R555:558 VASSToVAS.monad <> bind:7 meth
+R563:566 VASSToVAS.monad <> bind:7 meth
+R570:571 VASSToVAS.monad <> ma:17 var
+R568:568 VASSToVAS.monad <> f:18 var
+R560:560 VASSToVAS.monad <> g:19 var
+R576:579 VASSToVAS.monad <> bind:7 meth
+R607:608 VASSToVAS.monad <> ma:17 var
+binder 586:586 <> a:20
+R592:595 VASSToVAS.monad <> bind:7 meth
+R600:600 VASSToVAS.monad <> f:18 var
+R602:602 VASSToVAS.monad <> a:20 var
+R597:597 VASSToVAS.monad <> g:19 var
+binder 624:624 <> A:21
+binder 626:626 <> B:22
+R638:641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R637:637 VASSToVAS.monad <> A:21 var
+R642:648 VASSToVAS.monad <> carrier:2 meth
+R650:650 VASSToVAS.monad <> B:22 var
+binder 629:630 <> f1:23
+binder 632:633 <> f2:24
+R662:665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R656:659 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R654:655 VASSToVAS.monad <> f1:23 var
+R660:661 VASSToVAS.monad <> f2:24 var
+R673:676 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R666:669 VASSToVAS.monad <> bind:7 meth
+R671:672 VASSToVAS.monad <> f1:23 var
+R677:680 VASSToVAS.monad <> bind:7 meth
+R682:683 VASSToVAS.monad <> f2:24 var
+R695:705 VASSToVAS.monad Monad.Definitions <> sec
+mod 723:729 <> Monad.Exports
+R732:766 VASSToVAS.monad Monad carrier proj
+R779:781 VASSToVAS.monad Monad ret proj
+R779:781 VASSToVAS.monad Monad ret proj
+R815:818 VASSToVAS.monad Monad bind proj
+not 801:801 Monad.Exports :::x_'>>='_x
+R844:850 VASSToVAS.monad Monad.Exports <> mod
+mod 861:866 <> Monad.Theory
+sec 878:883 Monad.Theory Theory
+var 896:896 Monad.Theory.Theory M
+R900:902 VASSToVAS.monad Monad law rec
+var 915:915 Monad.Theory.Theory A
+var 917:917 Monad.Theory.Theory B
+var 919:919 Monad.Theory.Theory C
+var 940:940 Monad.Theory.Theory a
+var 948:949 Monad.Theory.Theory ma
+var 958:958 Monad.Theory.Theory f
+var 960:961 Monad.Theory.Theory f1
+var 963:964 Monad.Theory.Theory f2
+var 978:978 Monad.Theory.Theory g
+R944:944 VASSToVAS.monad <> Monad.Theory.Theory.A var
+R952:952 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R954:954 VASSToVAS.monad <> Monad.Theory.Theory.A var
+R968:971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R967:967 VASSToVAS.monad <> Monad.Theory.Theory.A var
+R972:972 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R974:974 VASSToVAS.monad <> Monad.Theory.Theory.B var
+R983:986 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R982:982 VASSToVAS.monad <> Monad.Theory.Theory.B var
+R987:987 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R989:989 VASSToVAS.monad <> Monad.Theory.Theory.C var
+prf 1000:1018 Monad.Theory ret_right_unit_bind
+R1034:1038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1028:1032 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+R1033:1033 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1023:1025 VASSToVAS.monad Monad ret proj
+R1027:1027 VASSToVAS.monad <> Monad.Theory.Theory.a var
+R1039:1039 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1041:1041 VASSToVAS.monad <> Monad.Theory.Theory.a var
+R1060:1060 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R1062:1062 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1062:1062 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1062:1062 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1060:1060 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R1060:1060 VASSToVAS.monad <> Monad.Theory.Theory.M var
+prf 1077:1094 Monad.Theory ret_left_unit_bind
+R1109:1113 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1101:1105 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+R1106:1108 VASSToVAS.monad Monad ret proj
+R1099:1100 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1114:1115 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1134:1134 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R1136:1137 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1136:1137 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1136:1137 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1134:1134 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R1134:1134 VASSToVAS.monad <> Monad.Theory.Theory.M var
+prf 1152:1161 Monad.Theory bind_assoc
+R1182:1186 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1166:1166 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+R1175:1180 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+R1181:1181 VASSToVAS.monad <> Monad.Theory.Theory.g var
+R1169:1173 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+R1174:1174 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1167:1168 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1189:1194 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+R1213:1213 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+binder 1199:1199 <> a:35
+R1207:1211 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+R1212:1212 VASSToVAS.monad <> Monad.Theory.Theory.g var
+R1204:1204 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1206:1206 VASSToVAS.monad <> a:35 var
+R1187:1188 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1232:1232 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R1234:1235 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1237:1237 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1239:1239 VASSToVAS.monad <> Monad.Theory.Theory.g var
+R1239:1239 VASSToVAS.monad <> Monad.Theory.Theory.g var
+R1239:1239 VASSToVAS.monad <> Monad.Theory.Theory.g var
+R1237:1237 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1237:1237 VASSToVAS.monad <> Monad.Theory.Theory.f var
+R1234:1235 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1234:1235 VASSToVAS.monad <> Monad.Theory.Theory.ma var
+R1232:1232 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R1232:1232 VASSToVAS.monad <> Monad.Theory.Theory.M var
+prf 1254:1261 Monad.Theory bind_ext
+R1273:1276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1267:1270 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R1265:1266 VASSToVAS.monad <> Monad.Theory.Theory.f1 var
+R1271:1272 VASSToVAS.monad <> Monad.Theory.Theory.f2 var
+R1284:1287 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R1277:1280 VASSToVAS.monad Monad bind proj
+R1282:1283 VASSToVAS.monad <> Monad.Theory.Theory.f1 var
+R1288:1291 VASSToVAS.monad Monad bind proj
+R1293:1294 VASSToVAS.monad <> Monad.Theory.Theory.f2 var
+R1313:1313 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R1315:1315 VASSToVAS.monad <> Monad.Theory.Theory.A var
+R1317:1317 VASSToVAS.monad <> Monad.Theory.Theory.B var
+R1319:1320 VASSToVAS.monad <> Monad.Theory.Theory.f1 var
+R1322:1323 VASSToVAS.monad <> Monad.Theory.Theory.f2 var
+R1322:1323 VASSToVAS.monad <> Monad.Theory.Theory.f2 var
+R1322:1323 VASSToVAS.monad <> Monad.Theory.Theory.f2 var
+R1319:1320 VASSToVAS.monad <> Monad.Theory.Theory.f1 var
+R1319:1320 VASSToVAS.monad <> Monad.Theory.Theory.f1 var
+R1317:1317 VASSToVAS.monad <> Monad.Theory.Theory.B var
+R1317:1317 VASSToVAS.monad <> Monad.Theory.Theory.B var
+R1315:1315 VASSToVAS.monad <> Monad.Theory.Theory.A var
+R1315:1315 VASSToVAS.monad <> Monad.Theory.Theory.A var
+R1313:1313 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R1313:1313 VASSToVAS.monad <> Monad.Theory.Theory.M var
+R1336:1341 VASSToVAS.monad Monad.Theory.Theory <> sec
+R1349:1354 VASSToVAS.monad Monad.Theory <> mod
+R1365:1370 VASSToVAS.monad Monad.Theory <> modtype
+R1378:1382 VASSToVAS.monad Monad <> mod
+R1392:1404 VASSToVAS.monad Monad.Exports <> mod
+sec 1416:1420 <> FoldM
+R1431:1435 VASSToVAS.monad Monad <> mod
+var 1448:1448 FoldM M
+R1452:1454 VASSToVAS.monad <> law rec
+var 1467:1467 FoldM A
+var 1469:1469 FoldM B
+var 1488:1488 FoldM f
+R1493:1496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1492:1492 VASSToVAS.monad <> FoldM.A var
+R1498:1501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1497:1497 VASSToVAS.monad <> FoldM.B var
+R1502:1502 VASSToVAS.monad <> FoldM.M var
+R1504:1504 VASSToVAS.monad <> FoldM.A var
+def 1517:1521 <> foldm
+binder 1523:1523 <> a:40
+binder 1525:1525 <> s:41
+R1533:1533 VASSToVAS.monad <> s:41 var
+R1539:1542 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R1556:1560 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+R1566:1568 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R1561:1565 VASSToVAS.monad <> foldm:42 def
+R1551:1551 VASSToVAS.monad <> FoldM.f var
+R1553:1553 VASSToVAS.monad <> a:40 var
+R1577:1579 VASSToVAS.monad <> ret proj
+R1581:1581 VASSToVAS.monad <> a:40 var
+prf 1591:1596 <> foldm0
+binder 1598:1598 <> a:44
+R1614:1616 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1602:1606 VASSToVAS.monad <> foldm def
+R1610:1613 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R1608:1608 VASSToVAS.monad <> a:44 var
+R1617:1619 VASSToVAS.monad <> ret proj
+R1621:1621 VASSToVAS.monad <> a:44 var
+prf 1650:1655 <> foldm1
+binder 1657:1657 <> a:45
+binder 1659:1659 <> x:46
+R1677:1679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1663:1667 VASSToVAS.monad <> foldm def
+R1671:1674 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R1676:1676 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R1675:1675 VASSToVAS.monad <> x:46 var
+R1669:1669 VASSToVAS.monad <> a:45 var
+R1680:1680 VASSToVAS.monad <> FoldM.f var
+R1684:1684 VASSToVAS.monad <> x:46 var
+R1682:1682 VASSToVAS.monad <> a:45 var
+R1708:1725 VASSToVAS.monad <> ret_left_unit_bind thm
+R1708:1725 VASSToVAS.monad <> ret_left_unit_bind thm
+R1708:1725 VASSToVAS.monad <> ret_left_unit_bind thm
+prf 1740:1748 <> foldm_cat
+binder 1750:1750 <> a:47
+binder 1752:1753 <> s1:48
+binder 1755:1756 <> s2:49
+R1778:1780 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1760:1764 VASSToVAS.monad <> foldm def
+R1771:1774 mathcomp.ssreflect.seq <> ::seq_scope:x_'++'_x not
+R1769:1770 VASSToVAS.monad <> s1:48 var
+R1775:1776 VASSToVAS.monad <> s2:49 var
+R1766:1766 VASSToVAS.monad <> a:47 var
+R1791:1795 VASSToVAS.monad Monad.Exports :::x_'>>='_x not
+R1801:1803 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R1804:1805 VASSToVAS.monad <> s2:49 var
+R1796:1800 VASSToVAS.monad <> foldm def
+R1781:1785 VASSToVAS.monad <> foldm def
+R1789:1790 VASSToVAS.monad <> s1:48 var
+R1787:1787 VASSToVAS.monad <> a:47 var
+R1871:1889 VASSToVAS.monad <> ret_right_unit_bind thm
+R1871:1889 VASSToVAS.monad <> ret_right_unit_bind thm
+R1871:1889 VASSToVAS.monad <> ret_right_unit_bind thm
+R1902:1911 VASSToVAS.monad <> bind_assoc thm
+R1902:1911 VASSToVAS.monad <> bind_assoc thm
+R1902:1911 VASSToVAS.monad <> bind_assoc thm
+R1923:1930 VASSToVAS.monad <> bind_ext thm
+R1923:1930 VASSToVAS.monad <> bind_ext thm
+R1943:1947 VASSToVAS.monad FoldM <> sec
+sec 1984:1994 <> OptionMonad
+sec 2006:2009 OptionMonad Laws
+var 2023:2023 OptionMonad.Laws A
+var 2025:2025 OptionMonad.Laws B
+var 2027:2027 OptionMonad.Laws C
+prf 2042:2062 <> some_right_unit_obind
+binder 2064:2064 <> a:53
+R2072:2075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2071:2071 VASSToVAS.monad <> OptionMonad.Laws.A var
+R2076:2081 Coq.Init.Datatypes <> option ind
+R2083:2083 VASSToVAS.monad <> OptionMonad.Laws.B var
+binder 2067:2067 <> f:54
+R2104:2106 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2088:2092 Coq.ssr.ssrfun <> obind abbrev
+R2097:2100 Coq.Init.Datatypes <> Some constr
+R2102:2102 VASSToVAS.monad <> a:53 var
+R2094:2094 VASSToVAS.monad <> f:54 var
+R2107:2107 VASSToVAS.monad <> f:54 var
+R2109:2109 VASSToVAS.monad <> a:53 var
+prf 2138:2157 <> some_left_unit_obind
+binder 2159:2160 <> oa:55
+R2182:2184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2164:2168 Coq.ssr.ssrfun <> obind abbrev
+R2180:2181 VASSToVAS.monad <> oa:55 var
+R2172:2175 Coq.Init.Datatypes <> Some constr
+R2177:2177 VASSToVAS.monad <> OptionMonad.Laws.A var
+R2185:2186 VASSToVAS.monad <> oa:55 var
+prf 2221:2231 <> obind_assoc
+binder 2233:2234 <> oa:56
+R2242:2245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2241:2241 VASSToVAS.monad <> OptionMonad.Laws.A var
+R2246:2251 Coq.Init.Datatypes <> option ind
+R2253:2253 VASSToVAS.monad <> OptionMonad.Laws.B var
+binder 2237:2237 <> f:57
+R2262:2265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2261:2261 VASSToVAS.monad <> OptionMonad.Laws.B var
+R2266:2271 Coq.Init.Datatypes <> option ind
+R2273:2273 VASSToVAS.monad <> OptionMonad.Laws.C var
+binder 2257:2257 <> g:58
+R2300:2302 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2280:2284 Coq.ssr.ssrfun <> obind abbrev
+R2289:2293 Coq.ssr.ssrfun <> obind abbrev
+R2297:2298 VASSToVAS.monad <> oa:56 var
+R2295:2295 VASSToVAS.monad <> f:57 var
+R2286:2286 VASSToVAS.monad <> g:58 var
+R2303:2307 Coq.ssr.ssrfun <> obind abbrev
+R2336:2337 VASSToVAS.monad <> oa:56 var
+binder 2314:2314 <> a:59
+R2320:2324 Coq.ssr.ssrfun <> obind abbrev
+R2329:2329 VASSToVAS.monad <> f:57 var
+R2331:2331 VASSToVAS.monad <> a:59 var
+R2326:2326 VASSToVAS.monad <> g:58 var
+prf 2372:2380 <> obind_ext
+R2392:2395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2391:2391 VASSToVAS.monad <> OptionMonad.Laws.A var
+R2396:2401 Coq.Init.Datatypes <> option ind
+R2403:2403 VASSToVAS.monad <> OptionMonad.Laws.B var
+binder 2383:2384 <> f1:60
+binder 2386:2387 <> f2:61
+R2416:2419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2410:2413 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R2408:2409 VASSToVAS.monad <> f1:60 var
+R2414:2415 VASSToVAS.monad <> f2:61 var
+R2428:2431 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R2420:2424 Coq.ssr.ssrfun <> obind abbrev
+R2426:2427 VASSToVAS.monad <> f1:60 var
+R2432:2436 Coq.ssr.ssrfun <> obind abbrev
+R2438:2439 VASSToVAS.monad <> f2:61 var
+R2475:2478 VASSToVAS.monad OptionMonad.Laws <> sec
+R2489:2493 VASSToVAS.monad Monad <> mod
+def 2507:2518 <> option_monad
+R2525:2527 VASSToVAS.monad <> Law constr
+R2584:2592 VASSToVAS.monad <> obind_ext thm
+R2572:2582 VASSToVAS.monad <> obind_assoc thm
+R2551:2570 VASSToVAS.monad <> some_left_unit_obind thm
+R2529:2549 VASSToVAS.monad <> some_right_unit_obind thm
+prf 2602:2615 <> foldm_cat_some
+binder 2618:2618 <> A:62
+binder 2620:2620 <> B:63
+binder 2630:2630 <> f:64
+R2638:2638 VASSToVAS.monad <> A:62 var
+binder 2633:2634 <> a0:65
+R2650:2652 mathcomp.ssreflect.seq <> seq abbrev
+R2654:2654 VASSToVAS.monad <> B:63 var
+binder 2642:2643 <> s1:66
+binder 2645:2646 <> s2:67
+binder 2657:2658 <> a2:68
+R2697:2705 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2687:2689 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2666:2670 VASSToVAS.monad <> foldm def
+R2680:2683 mathcomp.ssreflect.seq <> ::seq_scope:x_'++'_x not
+R2678:2679 VASSToVAS.monad <> s1:66 var
+R2684:2685 VASSToVAS.monad <> s2:67 var
+R2674:2675 VASSToVAS.monad <> a0:65 var
+R2672:2672 VASSToVAS.monad <> f:64 var
+R2690:2693 Coq.Init.Datatypes <> Some constr
+R2695:2696 VASSToVAS.monad <> a2:68 var
+R2706:2712 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2715:2716 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2713:2714 <> a1:69
+R2740:2743 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2730:2732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2717:2721 VASSToVAS.monad <> foldm def
+R2728:2729 VASSToVAS.monad <> s1:66 var
+R2725:2726 VASSToVAS.monad <> a0:65 var
+R2723:2723 VASSToVAS.monad <> f:64 var
+R2733:2736 Coq.Init.Datatypes <> Some constr
+R2738:2739 VASSToVAS.monad <> a1:69 var
+R2757:2759 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2744:2748 VASSToVAS.monad <> foldm def
+R2755:2756 VASSToVAS.monad <> s2:67 var
+R2752:2753 VASSToVAS.monad <> a1:69 var
+R2750:2750 VASSToVAS.monad <> f:64 var
+R2760:2763 Coq.Init.Datatypes <> Some constr
+R2765:2766 VASSToVAS.monad <> a2:68 var
+R2786:2794 VASSToVAS.monad <> foldm_cat thm
+R2786:2794 VASSToVAS.monad <> foldm_cat thm
+R2786:2794 VASSToVAS.monad <> foldm_cat thm
+R2845:2849 VASSToVAS.monad <> foldm def
+R2845:2849 VASSToVAS.monad <> foldm def
+R2845:2849 VASSToVAS.monad <> foldm def
+prf 2888:2902 <> foldm_cons_some
+binder 2905:2905 <> A:70
+binder 2907:2907 <> B:71
+binder 2917:2917 <> f:72
+R2925:2925 VASSToVAS.monad <> A:70 var
+binder 2920:2921 <> a0:73
+binder 2928:2928 <> t:74
+R2935:2937 mathcomp.ssreflect.seq <> seq abbrev
+R2939:2939 VASSToVAS.monad <> B:71 var
+binder 2931:2931 <> s:75
+binder 2942:2943 <> a2:76
+R2980:2988 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2970:2972 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2951:2955 VASSToVAS.monad <> foldm def
+R2964:2967 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R2963:2963 VASSToVAS.monad <> t:74 var
+R2968:2968 VASSToVAS.monad <> s:75 var
+R2959:2960 VASSToVAS.monad <> a0:73 var
+R2957:2957 VASSToVAS.monad <> f:72 var
+R2973:2976 Coq.Init.Datatypes <> Some constr
+R2978:2979 VASSToVAS.monad <> a2:76 var
+R2989:2995 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2998:2999 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2996:2997 <> a1:77
+R3016:3019 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3006:3008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3000:3000 VASSToVAS.monad <> f:72 var
+R3002:3003 VASSToVAS.monad <> a0:73 var
+R3005:3005 VASSToVAS.monad <> t:74 var
+R3009:3012 Coq.Init.Datatypes <> Some constr
+R3014:3015 VASSToVAS.monad <> a1:77 var
+R3032:3034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3020:3024 VASSToVAS.monad <> foldm def
+R3031:3031 VASSToVAS.monad <> s:75 var
+R3028:3029 VASSToVAS.monad <> a1:77 var
+R3026:3026 VASSToVAS.monad <> f:72 var
+R3035:3038 Coq.Init.Datatypes <> Some constr
+R3040:3041 VASSToVAS.monad <> a2:76 var
+R3062:3066 mathcomp.ssreflect.seq <> cat1s thm
+R3068:3081 VASSToVAS.monad <> foldm_cat_some thm
+R3062:3066 mathcomp.ssreflect.seq <> cat1s thm
+R3062:3066 mathcomp.ssreflect.seq <> cat1s thm
+R3068:3081 VASSToVAS.monad <> foldm_cat_some thm
+R3068:3081 VASSToVAS.monad <> foldm_cat_some thm
+R3119:3124 VASSToVAS.monad <> foldm1 thm
+R3119:3124 VASSToVAS.monad <> foldm1 thm
+R3119:3124 VASSToVAS.monad <> foldm1 thm
+R3184:3189 VASSToVAS.monad <> foldm1 thm
+R3184:3189 VASSToVAS.monad <> foldm1 thm
+R3184:3189 VASSToVAS.monad <> foldm1 thm
+prf 3204:3219 <> foldm_rcons_some
+binder 3222:3222 <> A:78
+binder 3224:3224 <> B:79
+binder 3234:3234 <> f:80
+R3242:3242 VASSToVAS.monad <> A:78 var
+binder 3237:3238 <> a0:81
+R3250:3252 mathcomp.ssreflect.seq <> seq abbrev
+R3254:3254 VASSToVAS.monad <> B:79 var
+binder 3246:3246 <> s:82
+binder 3257:3257 <> t:83
+binder 3259:3260 <> a2:84
+R3300:3308 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3290:3292 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3268:3272 VASSToVAS.monad <> foldm def
+R3280:3284 mathcomp.ssreflect.seq <> rcons def
+R3288:3288 VASSToVAS.monad <> t:83 var
+R3286:3286 VASSToVAS.monad <> s:82 var
+R3276:3277 VASSToVAS.monad <> a0:81 var
+R3274:3274 VASSToVAS.monad <> f:80 var
+R3293:3296 Coq.Init.Datatypes <> Some constr
+R3298:3299 VASSToVAS.monad <> a2:84 var
+R3309:3315 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3318:3319 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3316:3317 <> a1:85
+R3342:3345 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3332:3334 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3320:3324 VASSToVAS.monad <> foldm def
+R3331:3331 VASSToVAS.monad <> s:82 var
+R3328:3329 VASSToVAS.monad <> a0:81 var
+R3326:3326 VASSToVAS.monad <> f:80 var
+R3335:3338 Coq.Init.Datatypes <> Some constr
+R3340:3341 VASSToVAS.monad <> a1:85 var
+R3352:3354 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3346:3346 VASSToVAS.monad <> f:80 var
+R3348:3349 VASSToVAS.monad <> a1:85 var
+R3351:3351 VASSToVAS.monad <> t:83 var
+R3355:3358 Coq.Init.Datatypes <> Some constr
+R3360:3361 VASSToVAS.monad <> a2:84 var
+R3382:3386 mathcomp.ssreflect.seq <> cats1 thm
+R3388:3401 VASSToVAS.monad <> foldm_cat_some thm
+R3382:3386 mathcomp.ssreflect.seq <> cats1 thm
+R3382:3386 mathcomp.ssreflect.seq <> cats1 thm
+R3388:3401 VASSToVAS.monad <> foldm_cat_some thm
+R3388:3401 VASSToVAS.monad <> foldm_cat_some thm
+R3439:3444 VASSToVAS.monad <> foldm1 thm
+R3439:3444 VASSToVAS.monad <> foldm1 thm
+R3439:3444 VASSToVAS.monad <> foldm1 thm
+R3504:3509 VASSToVAS.monad <> foldm1 thm
+R3504:3509 VASSToVAS.monad <> foldm1 thm
+R3504:3509 VASSToVAS.monad <> foldm1 thm
+R3522:3532 VASSToVAS.monad OptionMonad <> sec
