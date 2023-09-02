@@ -7,6 +7,6 @@ vecop.vos vecop.vok vecop.required_vos: vecop.v
 vectrans.vo vectrans.glob vectrans.v.beautified vectrans.required_vo: vectrans.v vecop.vo
 vectrans.vio: vectrans.v vecop.vio
 vectrans.vos vectrans.vok vectrans.required_vos: vectrans.v vecop.vos
-poster.vo poster.glob poster.v.beautified poster.required_vo: poster.v vecop.vo vectrans.vo monad.vo
-poster.vio: poster.v vecop.vio vectrans.vio monad.vio
-poster.vos poster.vok poster.required_vos: poster.v vecop.vos vectrans.vos monad.vos
+VASStoVAS.vo VASStoVAS.glob VASStoVAS.v.beautified VASStoVAS.required_vo: VASStoVAS.v vecop.vo vectrans.vo monad.vo
+VASStoVAS.vio: VASStoVAS.v vecop.vio vectrans.vio monad.vio
+VASStoVAS.vos VASStoVAS.vok VASStoVAS.required_vos: VASStoVAS.v vecop.vos vectrans.vos monad.vos
