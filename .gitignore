@@ -6,5 +6,4 @@
 *.vos
 Makefile.conf
 .Makefile.d
-.vscode
 .lia.cache
