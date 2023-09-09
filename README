@@ -1,4 +1,4 @@
-Formalization of conversion from VASS to VAS.
+Formalization of translation from VASS to VAS.
 
 Developed on Coq 8.17.1 and Mathematical Components 1.17.0.
 
@@ -8,7 +8,7 @@ Contents:
   This code is from https://bitbucket.org/mituharu/karpmiller/src/master/.
 * vecop.v	-- Vector operations such as rotation and concatenation.
 * trans.v	-- Transition on VAS.
-* VASStoVAS.v -- Conversion from VASS to VAS.
+* VASStoVAS.v -- Translation from VASS to VAS.
 
 Required OPAM Packages:
 
