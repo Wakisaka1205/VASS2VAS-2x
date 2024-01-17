@@ -1,4 +1,5 @@
 From mathcomp Require Import all_algebra all_ssreflect.
+From HB Require Import structures.
 Set Implicit Arguments.
 Unset Strict Implicit. 
 Unset Printing Implicit Defensive.
@@ -11,7 +12,7 @@ Definition vrot (i : 'I_n.+1) (v : T ^ n.+1) :=
  [ffun j : 'I_n.+1 => v (j + i)%R].
 Definition vrotr (i : 'I_n.+1) := vrot (- i)%R.
 
-Lemma vrotrK m : cancel (vrotr m) (vrot m).
+Lemma vrotrK i : cancel (vrotr i) (vrot i).
 Proof. by move=> ?; apply/ffunP=> ?; rewrite !ffunE addrK. Qed.
 
 Lemma vrotK i : cancel (vrot i) (vrotr i).
@@ -61,22 +62,22 @@ Definition vnat_Sub (x : vint) (Px : [forall i, 0 <= x i]%R) :=
  [ffun i => `|x i|%N]%R.
 
 Lemma vnat_SubP (K : vnat -> Type)
-     (PK : forall (x : vint) (Px : [forall i, 0 <= x i]%R),
-         K (vnat_Sub Px))
+     (PK : forall (x : vint) (Px : [forall i, 0 <= x i]%R), K (vnat_Sub Px))
      (u : vnat): K u.
 Proof.
  have H i : (0 <= (vnat_val u) i)%R by rewrite ffunE le0z_nat.
  move/forallP in H; move: (PK _ H); rewrite (_ : vnat_Sub H = u) //.
- by apply/ffunP=> i; rewrite !ffunE.
+ by apply/ffunP=> ?; rewrite !ffunE.
 Qed.
 
 Lemma vnat_SubK (x : vint) (Px : [forall i, (0 <= x i)%R]):
  vnat_val (vnat_Sub Px) = x.
 Proof.
- by apply/ffunP=> /= i; rewrite !ffunE gez0_abs // (forallP Px).
+ by apply/ffunP=> ?; rewrite !ffunE gez0_abs // (forallP Px).
 Qed.
 
-Canonical vnat_subType := SubType _ _ _ vnat_SubP vnat_SubK.
+HB.instance Definition _ := isSub.Build _ _ _ vnat_SubP vnat_SubK.
+
 End vSub.
 
 Section ComponetwiseOperation.
@@ -166,8 +167,8 @@ Lemma forall_vcat (T : Type) (n m : nat) (v : T ^ n) (w : T ^ m)
  (P : T -> bool) :
  [forall i, P ((vcat v w) i)] = [forall i, P (v i)] && [forall i, P (w i)].
 Proof.
- apply/forallP/andP => /=.
-  move=> H;split; apply/forallP => /= i.
+ apply/forallP/andP.
+  move=> H; split; apply/forallP => i.
    move: (H (lshift m i)); rewrite ffunE.
    by case: split_ordP => ? /eqP; rewrite eq_shift// => /eqP->.
   move: (H (rshift n i)); rewrite ffunE.
@@ -179,5 +180,4 @@ Qed.
 Lemma val_vcat n1 n2 (s1 : vnat n1) (s2 : vnat n2) :
  val (vcat s1 s2 : vnat _) = vcat (val s1) (val s2).
 Proof. by rewrite -[LHS]/(fflift _ _) fflift_vcat. Qed.
-
 End vcat.
